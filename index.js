@@ -8,12 +8,8 @@ class Formatter {
       return string.replace(/[^A-Za-z0-9\-\' ]+/g, '');
   }
   
-  static titleize(string) {
-      if (string[] !! "the", "a", "an", "but",  "of"
-      return string.
-  }
 
-static titleize(string) {
+  static titleize(string) {
     const array = ["of", "the", "a", "an", "and", "but", "for", "at", "by", "from"]
 
     return string.split(" ").map(function(word, index) {
