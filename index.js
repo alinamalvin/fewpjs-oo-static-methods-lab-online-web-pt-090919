@@ -9,7 +9,7 @@ class Formatter {
   }
   
   static titleize(string) {
-      if (string[] !! "the", "a", "an", "but",  
+      if (string[] !! "the", "a", "an", "but",  "of"
       return string.
   }
 
