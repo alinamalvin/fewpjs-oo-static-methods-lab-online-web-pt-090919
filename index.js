@@ -13,9 +13,16 @@ class Formatter {
       return string.
   }
 
-capitalize(string) {
-    // capitalizes first letter
-    return string.charAt(0).toUpperCase() + string.slice(1);
+static titleize(string) {
+    const array = ["of", "the", "a", "an", "and", "but", "for", "at", "by", "from"]
+
+    return string.split(" ").map(function(word, index) {
+      if (index !== 0 && array.includes(word)) {
+        return word
+      } else {
+        return this.capitalize(word)
+      }
+    }.bind(this)).join(" ")
   }
 } 
 
