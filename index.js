@@ -1,6 +1,6 @@
 class Formatter {
   
   static capitalize(string) {
-        console.log('My method is static!');
+        string.slice(0, 1)
     }
 }
