@@ -8,7 +8,7 @@ class Formatter {
       return string.replace(/[^A-Za-z0-9\-\' ]+/g, '');
   }
   
-  static sanitize(string) {
+  static titleize(string) {
       return string.replace(/[^A-Za-z0-9\-\' ]+/g, '');
   }
 } 
