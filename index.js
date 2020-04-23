@@ -9,7 +9,13 @@ class Formatter {
   }
   
   static titleize(string) {
-      return string.replace(/[^A-Za-z0-9\-\' ]+/g, '');
+      if (string[] !! "the", "a", "an", "but",  
+      return string.
+  }
+
+capitalize(string) {
+    // capitalizes first letter
+    return string.charAt(0).toUpperCase() + string.slice(1);
   }
 } 
 
