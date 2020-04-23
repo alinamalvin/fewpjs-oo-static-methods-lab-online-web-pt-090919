@@ -1,6 +1,6 @@
 class Formatter {
   
-  static methodName() {
+  static capitalize(string) {
         console.log('My method is static!');
     }
 }
